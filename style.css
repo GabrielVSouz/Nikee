@@ -1,0 +1,163 @@
+#lancamentos {
+    position: absolute;
+    top: 60px;
+    right: 1100px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#ofertas {
+    position: absolute;
+    top: 60px;
+    right: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#masculino {
+    position: absolute;
+    top: 60px;
+    right: 880px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#feminino {
+    position: absolute;
+    top: 60px;
+    right: 770px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#infantil {
+    position: absolute;
+    top: 60px;
+    right: 660px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#SNKRS {
+    position: absolute;
+    top: 60px;
+    right: 550px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
+
+#nike-jornal {
+    position: absolute;
+    top: 0px;
+    right: 350px;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+#ajuda {
+    position: absolute;
+    top: 0;
+    right: 280px;
+    background-color: white;
+    font-size: 12px;
+}
+
+#junte-se {
+    position: absolute;
+    top: 0;
+    right: 160px;
+    background-color: white;
+    font-size: 12px;
+}
+
+#Entrar {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.sacola {
+    position: fixed;
+    top: 65px;
+    right: 40px;
+}
+
+.coração {
+    position: fixed; /* Define a posição absoluta */
+    top: 65px; /* Distância do topo */
+    right: 120px; /* Distância da direita */
+    width: 10px; /* Largura da logo */
+    height: 30px; /* Altura automática para manter a proporção */
+
+}
+
+.container {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 60px 0;
+}
+
+.logo {
+    position: fixed; /* Define a posição absoluta */
+    top: 40px; /* Distância do topo */
+    right: 1300px; /* Distância da direita */
+    width: 100px; /* Largura da logo */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.search-container {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -5px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+}
+
+.search-container:hover input[type="text"] {
+    font: bold;
+    background-color: #b7aeae;
+}
+
+.search-container:hover {
+    background-color: #b7aeae;
+    border-color: #b7aeae;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #807979;
+    color: fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a0a2a5;
+}
+
+
+
